@@ -15,5 +15,10 @@
 	/* Post Types */
 	require_once locate_template('core/post-types/post-type-tasks.php');
 
-	/* Taxonomies */
+	/* 
+		Taxonomies 
+	*/
+
 	require_once locate_template('core/taxonomies/taxonomies-business-unit.php');
+		
+	require_once locate_template('core/taxonomies/taxonomies-tasks-status.php');
